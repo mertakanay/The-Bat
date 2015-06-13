@@ -15,6 +15,11 @@
 		3EBCC2CB1B0EF8A5006E00C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBCC2CA1B0EF8A5006E00C7 /* Images.xcassets */; };
 		3EBCC2CE1B0EF8A5006E00C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EBCC2CC1B0EF8A5006E00C7 /* LaunchScreen.xib */; };
 		3EBCC2DA1B0EF8A6006E00C7 /* The_BatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBCC2D91B0EF8A6006E00C7 /* The_BatTests.m */; };
+		3EBCC2E51B0F0314006E00C7 /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBCC2E41B0F0314006E00C7 /* DescriptionViewController.m */; };
+		3EBCC2E81B0F0322006E00C7 /* AttractionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBCC2E71B0F0322006E00C7 /* AttractionsViewController.m */; };
+		3EBCC2EB1B0F033F006E00C7 /* SelectedAttractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBCC2EA1B0F033F006E00C7 /* SelectedAttractionViewController.m */; };
+		3EBCC2ED1B0F03EA006E00C7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBCC2EC1B0F03EA006E00C7 /* MapKit.framework */; };
+		64E03EB690467CA7D693E97F /* libPods-The Bat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C8EB1F35B5F1766FC16CE4 /* libPods-The Bat.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26C8EB1F35B5F1766FC16CE4 /* libPods-The Bat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-The Bat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBCC2B71B0EF8A5006E00C7 /* The Bat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Bat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBCC2BB1B0EF8A5006E00C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EBCC2BC1B0EF8A5006E00C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +48,15 @@
 		3EBCC2D31B0EF8A6006E00C7 /* The BatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The BatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBCC2D81B0EF8A6006E00C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EBCC2D91B0EF8A6006E00C7 /* The_BatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_BatTests.m; sourceTree = "<group>"; };
+		3EBCC2E31B0F0314006E00C7 /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		3EBCC2E41B0F0314006E00C7 /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
+		3EBCC2E61B0F0322006E00C7 /* AttractionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttractionsViewController.h; sourceTree = "<group>"; };
+		3EBCC2E71B0F0322006E00C7 /* AttractionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttractionsViewController.m; sourceTree = "<group>"; };
+		3EBCC2E91B0F033F006E00C7 /* SelectedAttractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedAttractionViewController.h; sourceTree = "<group>"; };
+		3EBCC2EA1B0F033F006E00C7 /* SelectedAttractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedAttractionViewController.m; sourceTree = "<group>"; };
+		3EBCC2EC1B0F03EA006E00C7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		49971B27077C5E9C1C14B5B0 /* Pods-The Bat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Bat.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Bat/Pods-The Bat.release.xcconfig"; sourceTree = "<group>"; };
+		C5E211219972325A370FCB23 /* Pods-The Bat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Bat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The Bat/Pods-The Bat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBCC2ED1B0F03EA006E00C7 /* MapKit.framework in Frameworks */,
+				64E03EB690467CA7D693E97F /* libPods-The Bat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,9 +82,12 @@
 		3EBCC2AE1B0EF8A5006E00C7 = {
 			isa = PBXGroup;
 			children = (
+				3EBCC2EC1B0F03EA006E00C7 /* MapKit.framework */,
 				3EBCC2B91B0EF8A5006E00C7 /* The Bat */,
 				3EBCC2D61B0EF8A6006E00C7 /* The BatTests */,
 				3EBCC2B81B0EF8A5006E00C7 /* Products */,
+				79AB632B7DD196998E3C447A /* Pods */,
+				8620549A266B8911709FF17A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +107,12 @@
 				3EBCC2BF1B0EF8A5006E00C7 /* AppDelegate.m */,
 				3EBCC2C41B0EF8A5006E00C7 /* ViewController.h */,
 				3EBCC2C51B0EF8A5006E00C7 /* ViewController.m */,
+				3EBCC2E31B0F0314006E00C7 /* DescriptionViewController.h */,
+				3EBCC2E41B0F0314006E00C7 /* DescriptionViewController.m */,
+				3EBCC2E61B0F0322006E00C7 /* AttractionsViewController.h */,
+				3EBCC2E71B0F0322006E00C7 /* AttractionsViewController.m */,
+				3EBCC2E91B0F033F006E00C7 /* SelectedAttractionViewController.h */,
+				3EBCC2EA1B0F033F006E00C7 /* SelectedAttractionViewController.m */,
 				3EBCC2C71B0EF8A5006E00C7 /* Main.storyboard */,
 				3EBCC2CA1B0EF8A5006E00C7 /* Images.xcassets */,
 				3EBCC2CC1B0EF8A5006E00C7 /* LaunchScreen.xib */,
@@ -122,6 +148,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		79AB632B7DD196998E3C447A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5E211219972325A370FCB23 /* Pods-The Bat.debug.xcconfig */,
+				49971B27077C5E9C1C14B5B0 /* Pods-The Bat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8620549A266B8911709FF17A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26C8EB1F35B5F1766FC16CE4 /* libPods-The Bat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EBCC2DD1B0EF8A6006E00C7 /* Build configuration list for PBXNativeTarget "The Bat" */;
 			buildPhases = (
+				7D4E1DCD96E6D7C3AAFFF588 /* Check Pods Manifest.lock */,
 				3EBCC2B31B0EF8A5006E00C7 /* Sources */,
 				3EBCC2B41B0EF8A5006E00C7 /* Frameworks */,
 				3EBCC2B51B0EF8A5006E00C7 /* Resources */,
+				1C712FBCE1EF472DED834056 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,14 +262,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C712FBCE1EF472DED834056 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Bat/Pods-The Bat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4E1DCD96E6D7C3AAFFF588 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EBCC2B31B0EF8A5006E00C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBCC2E51B0F0314006E00C7 /* DescriptionViewController.m in Sources */,
+				3EBCC2E81B0F0322006E00C7 /* AttractionsViewController.m in Sources */,
 				3EBCC2C01B0EF8A5006E00C7 /* AppDelegate.m in Sources */,
 				3EBCC2BD1B0EF8A5006E00C7 /* main.m in Sources */,
 				3EBCC2C61B0EF8A5006E00C7 /* ViewController.m in Sources */,
+				3EBCC2EB1B0F033F006E00C7 /* SelectedAttractionViewController.m in Sources */,
 				3EBCC2C31B0EF8A5006E00C7 /* The_Bat.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +430,7 @@
 		};
 		3EBCC2DE1B0EF8A6006E00C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E211219972325A370FCB23 /* Pods-The Bat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Bat/Info.plist";
@@ -359,6 +441,7 @@
 		};
 		3EBCC2DF1B0EF8A6006E00C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49971B27077C5E9C1C14B5B0 /* Pods-The Bat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Bat/Info.plist";
@@ -420,6 +503,7 @@
 				3EBCC2DF1B0EF8A6006E00C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EBCC2E01B0EF8A6006E00C7 /* Build configuration list for PBXNativeTarget "The BatTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +512,7 @@
 				3EBCC2E21B0EF8A6006E00C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
