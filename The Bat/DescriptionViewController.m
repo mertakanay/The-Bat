@@ -63,6 +63,36 @@
 
 }
 
+- (IBAction)pickPlace:(UIBarButtonItem *)sender {
+
+    GMSVisibleRegion visibleRegion = self.gMapView.projection.visibleRegion;
+    GMSCoordinateBounds *viewport = [[GMSCoordinateBounds alloc] initWithCoordinate:visibleRegion.farLeft
+                                                                         coordinate:visibleRegion.nearRight];
+    GMSPlacePickerConfig *config = [[GMSPlacePickerConfig alloc] initWithViewport:viewport];
+    GMSPlacePicker *placePicker = [[GMSPlacePicker alloc] initWithConfig:config];
+
+    [placePicker pickPlaceWithCallback:^(GMSPlace *place, NSError *error) {
+        if (error != nil) {
+            NSLog(@"Pick Place error %@", [error localizedDescription]);
+            return;
+        }
+
+        if (place != nil) {
+
+            NSLog(@"Place selected: %@", place.name);
+
+            GMSMarker *marker = [GMSMarker markerWithPosition:place.coordinate];
+            marker.title = place.name;
+            marker.snippet = place.formattedAddress;
+            marker.map = self.gMapView;
+
+        } else {
+            NSLog(@"No place selected");
+        }
+        
+    }];
+}
+
 
 
 @end
